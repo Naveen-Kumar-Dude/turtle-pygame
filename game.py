@@ -24,7 +24,7 @@ def start_game():
     start_rainFall(t1,0)
 
 def start_rainFall (move, c):
-    move.fillcolor (random. choice (pen_colors))
+    move.fillcolor (random.choice(pen_colors))
     move.begin_fill()
     move.circle(20)
     move.end_fi11()
